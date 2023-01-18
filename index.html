@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/assets/style.css" />
+  </head>
+  <body>
+    <!-- main outer div-->
+    <div class="outer-container">   
+        <!-- top bar section-->
+        <div class="top-bar">
+            <button>View Highscores</button>
+            <p>Timer: 00:00</p>
+        </div>    
+
+            <!--inner div-->
+        <div class="inner-container">
+                <!--main header/quiz intro-->
+            <header class="quiz-intro">
+                <h1>Coding Quiz  Challenge</h1>
+                <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+                <button>START</button>
+            </header>
+            <!--main quiz content-->
+            <main>
+                <section class="question-screen">
+                    <h2>Question here</h2>
+                    <ul>
+                        <!--This will be generated in Javascript. Placeholder-->
+                        <li><button>Answer 1</button></li>
+                        <li><button>Answer 2</button></li>
+                        <li><button>Answer 3</button></li>
+                        <li><button>Answer 4</button></li>
+                    </ul>
+                </section>
+                <section class="quiz-finish-screen">
+                    <h2>All done!</h2>
+                    <p>Your final score: 00</p>
+                    <div>
+                        <label for="">Enter initials</label>
+                        <input type="text">
+                        <button>Submit</button>
+                    </div>
+                </section>
+                <!--Highscore screen-->
+                <section class="highscore-screen">
+                    <h2>Highscores:</h2>
+                    <ol>
+                        <!--This will be generated in Javascript. Placeholder-->
+                        <li>EP - 20</li>
+                        <li>EP - 20</li>
+                        <li>EP - 20</li>
+                        <li>EP - 20</li>
+                    </ol>
+                    <button>Go back</button>
+                    <button>Clear Highscores</button>
+                </section>
+            </main>
+        </div>
+
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
