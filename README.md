@@ -1,4 +1,4 @@
-# wk4-challenge
+# module4challenge
 This is a timed coding quiz with multiple-choice questions. This app is written from scratch.
 
 ## Table of Contents (Optional)
