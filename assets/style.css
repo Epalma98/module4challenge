@@ -1,109 +1,43 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: monospace;
-   /* border: 1px solid red; */
-}
-
-button:hover {
-    cursor: pointer;
-}
-
 body {
-    background-color: rgb(213, 231, 255);
-    
+    background-color: #9eb2c8; 
+}
+
+#start-quiz-button {
+    color: black;
+    background-color: #efffbc;
+}
+
+h1, 
+h2 {
+    color: #efffbc;
+    font-family: monospace;
+}
+
+a {
+    color: #000000;
+    font-family: sans-serif;
 }
 
 p {
-    color: white;
-    font-size: 1.3rem;
+    font-family: sans-serif;
 }
 
-h1, h2 {
-    color: rgb(255, 253, 189);
-    text-align: center;
+span {
+    font-family: monospace;
 }
 
-li {
-    list-style: none;
+#questionTitle {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #efffbc;
 }
 
-button {
-    outline: none;
-    background-color: rgb(85, 99, 191);
-    color: white;
-    font-size: 1.3rem;
-}
-.outer-container {
-    padding: 10px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+#answerCheck {
+    font-style: italic;
+    color: #828692;
 }
 
-.inner-container {
-    background: rgb(160, 167, 178);
-    height: 100%;
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-
-.top-bar p {
-    float: right;    
-}
-
-.quiz-intro, main {
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    display: block;
-}
-
-.quiz-intro p {
-    text-align: center;
-    padding: 10px;
-}
-
-.quiz-intro button {
-    display: block;
-    margin: 0 auto;
-}
-
-/* Main Quiz Content */
-
-main {
-    display: none;
-}
-
-/* Question Screen */
-
-.question-screen {
-    display: none;
-    text-align: start;
-}
-
-/* quiz finish screen */
-
-.quiz-finish-screen {
-    display: none;
-    color: white;
-
-}
-
-/* Highscore screen */
-.highscore-screen {
-    display: none;
-}
-
-.highscore-screen ol {
-    color: white;
-    overflow-y: scroll;
-    max-height: 200px;
+#finalScore {
+    font-family: monospace;
+    font-weight: bold;
 }
