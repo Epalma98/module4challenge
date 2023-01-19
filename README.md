@@ -50,5 +50,8 @@ Bootstrap
 
 
 ## Websites
-Github Repo: 
-Deployed website: 
+Github Repo: https://github.com/Epalma98/module4challenge 
+Deployed website: https://epalma98.github.io/module4challenge/ 
+
+## Credit
+Github: Epalma98
